@@ -1,0 +1,6 @@
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/FantasyScheduler.App.pdb
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/libAvaloniaNative.dylib
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/libHarfBuzzSharp.dylib
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/libSkiaSharp.dylib
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/FantasyScheduler.Lib.pdb
+/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.App/bin/Debug/net6.0/osx-x64/publish/FantasyScheduler.App

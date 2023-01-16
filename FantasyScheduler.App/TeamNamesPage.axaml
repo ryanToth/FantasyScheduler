@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        x:Class="FantasyScheduler.App.TeamNamesPage">
+    <ItemsControl x:Name="TeamNamesControl">
+            <ItemsPanelTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </ItemsPanelTemplate>
+            <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Padding="10,5" Text="{Binding TeamNameLabel}" Grid.Column="0" />
+                            <TextBox Padding="10,5" Text="{Binding TeamName, Mode=TwoWay}" Width="150" Grid.Column="1" />
+                        </StackPanel>
+                    </DataTemplate>
+            </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

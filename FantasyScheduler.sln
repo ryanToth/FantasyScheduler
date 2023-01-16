@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyScheduler.Console", "FantasyScheduler.Console\FantasyScheduler.Console.csproj", "{B46C90F2-1846-4650-9A1C-C13429BAE43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyScheduler.Lib", "FantasyScheduler.Lib\FantasyScheduler.Lib.csproj", "{C8D692A1-FDD5-4319-877A-26C543546C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyScheduler.Lib.Tests", "FantasyScheduler.Lib.Tests\FantasyScheduler.Lib.Tests.csproj", "{3BFC6643-306F-4533-BA73-A9F3D398002D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyScheduler.App", "FantasyScheduler.App\FantasyScheduler.App.csproj", "{BE852F77-5499-473A-B227-5F125910E928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B46C90F2-1846-4650-9A1C-C13429BAE43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46C90F2-1846-4650-9A1C-C13429BAE43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46C90F2-1846-4650-9A1C-C13429BAE43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46C90F2-1846-4650-9A1C-C13429BAE43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D692A1-FDD5-4319-877A-26C543546C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D692A1-FDD5-4319-877A-26C543546C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D692A1-FDD5-4319-877A-26C543546C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D692A1-FDD5-4319-877A-26C543546C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFC6643-306F-4533-BA73-A9F3D398002D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFC6643-306F-4533-BA73-A9F3D398002D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFC6643-306F-4533-BA73-A9F3D398002D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFC6643-306F-4533-BA73-A9F3D398002D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE852F77-5499-473A-B227-5F125910E928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE852F77-5499-473A-B227-5F125910E928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE852F77-5499-473A-B227-5F125910E928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE852F77-5499-473A-B227-5F125910E928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6AB2AF8-E0B3-4FBE-8558-1BA3B8F9E7B7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        x:Class="FantasyScheduler.App.RivalsPage">
+    <ItemsControl x:Name="RivalsControl">
+            <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <ScrollViewer HorizontalScrollBarVisibility="Auto" Width="200" Padding="10,0">
+                                <TextBlock Padding="10,5" Text="{Binding Name}" />
+                            </ScrollViewer>
+                            <ComboBox
+                                Padding="10,5"
+                                Items="{Binding PotentialRivals}"
+                                SelectedItem="{Binding Rival, Mode=TwoWay}"
+                                Width="150" />
+                        </StackPanel>
+                    </DataTemplate>
+            </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

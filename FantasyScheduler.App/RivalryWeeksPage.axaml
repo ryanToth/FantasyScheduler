@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        x:Class="FantasyScheduler.App.RivalryWeeksPage">
+    <ItemsControl x:Name="RivalryWeeksControl">
+            <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Padding="10,5" Text="{Binding WeekLabel}" />
+                            <TextBox Padding="10,5" Text="{Binding Week, Mode=TwoWay}" />
+                        </StackPanel>
+                    </DataTemplate>
+            </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

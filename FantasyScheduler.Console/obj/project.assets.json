@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FantasyScheduler.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FantasyScheduler.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FantasyScheduler.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FantasyScheduler.Lib/1.0.0": {
+      "type": "project",
+      "path": "../FantasyScheduler.Lib/FantasyScheduler.Lib.csproj",
+      "msbuildProject": "../FantasyScheduler.Lib/FantasyScheduler.Lib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FantasyScheduler.Lib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/Ryan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.Console/FantasyScheduler.Console.csproj",
+      "projectName": "FantasyScheduler.Console",
+      "projectPath": "/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.Console/FantasyScheduler.Console.csproj",
+      "packagesPath": "/Users/Ryan/.nuget/packages/",
+      "outputPath": "/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/Ryan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.Lib/FantasyScheduler.Lib.csproj": {
+              "projectPath": "/Users/Ryan/Projects/FantasyScheduler/FantasyScheduler.Lib/FantasyScheduler.Lib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
